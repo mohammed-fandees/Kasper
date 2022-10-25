@@ -15,7 +15,7 @@ header .container  {
 header .container::after  {
     content: "";
     position: absolute;
-    top: 99%;
+    top: 100%;
     left: 15px;
     width: calc(100% - 30px);
     height: 1px;
@@ -108,7 +108,7 @@ header nav i {
     }
 
     .fa-bars:hover + ul {
-        display: flex;
+        display: block;
     }
     
     header nav ul li {
