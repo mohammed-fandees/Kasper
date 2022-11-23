@@ -23,6 +23,10 @@ ul {
 
 }
 
+textarea {
+    resize: none;
+}
+
 /* Small */
 
 @media (min-width: 768px) {
